@@ -1,8 +1,17 @@
+# The Catador's Roll
+
+Catador: A professional cigar taster who determines a cigar's qualities of taste, texture, and aroma. [source](https://www.thompsoncigar.com/infotemplate/CigarGlossary)
+
+## Steps
+
+In the project directory, we attempt to hand-roll you, the Catador, the finest cigar:
+
+1. npm run eject
+   - not sure if this will end up being a good idea later when wanting to utilize [React-Materialize](https://react-materialize.github.io/#/)
+2. removed all styling from components aside from the global styling available in [index.css]
+3. using [App.js] as root element vs. [Index.js] for layout to accomodate for future development
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
 
 ### `npm start`
 
