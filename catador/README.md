@@ -10,6 +10,7 @@ In the project directory, we attempt to hand-roll you, the Catador, the finest c
    - not sure if this will end up being a good idea later when wanting to utilize [React-Materialize](https://react-materialize.github.io/#/)
 2. removed all styling from components aside from the global styling available in [index.css]
 3. using [App.js] as root element vs. [Index.js] for layout to accomodate for future development
+4. added [NPM prop-types](https://www.npmjs.com/package/prop-types)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
