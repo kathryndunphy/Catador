@@ -1,31 +1,3 @@
-.CigarWrapper {
-  width: 80%;
-  height: 5%;
-  background: saddleBrown;
-  border-radius: 0 0 30px 30px;
-  box-shadow: inset -15px 0 maroon;
-  margin: 2% auto;
-  
-}
-
-.CigarBinder {
-  width: 80%;
-  height: 5%;
-  background: rgb(99, 13, 13);
-  border-radius: 50% 50% 0 0;
-  box-shadow: inset -15px 0 maroon;
-  margin: 2% auto;
-  position: relative;
-}
-
-.Filler {
-  width: 80%;
-  height: 10%;
-  background: linear-gradient(sienna, sandyBrown);
-  margin: 2% auto;
-  border-radius: 15px;
-}
-
 .Aroma {
   width: 80%;
   height: 3%;
@@ -33,3 +5,33 @@
   margin: 2% auto;
   margin-bottom: 10%;
 }
+
+.CigarBinder {
+  width: 80%;
+  height: 10%;
+  background: rgb(99, 13, 13);
+  border-radius: 50% 25% 25% 50%;
+  box-shadow: inset -15px 0 maroon;
+  /* margin: 2% auto; */
+  position: relative;
+}
+
+.Filler {
+  width: 80%;
+  height: 10%;
+  background: linear-gradient(sienna, sandyBrown);
+  /* margin: 2% auto; */
+  border-radius: 50% 25% 25% 50%;
+}
+
+.CigarWrapper {
+  width: 80%;
+  height: 10%;
+  background: saddleBrown;
+  border-radius: 50% 25% 25% 50%;
+  box-shadow: inset -15px 0 maroon;
+  /* margin: 2% auto; */
+  
+}
+
+
