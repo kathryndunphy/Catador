@@ -1,16 +1,17 @@
 .CigarWrapper {
-  height: 13%;
   width: 80%;
-  background: linear-gradient(chocolate, saddleBrown);
+  height: 5%;
+  background: saddleBrown;
   border-radius: 0 0 30px 30px;
-  box-shadow: inset -15px brown;
+  box-shadow: inset -15px 0 maroon;
   margin: 2% auto;
+  
 }
 
 .CigarBinder {
-  height: 20%;
   width: 80%;
-  background: linear-gradient(saddleBrown, chocolate);
+  height: 5%;
+  background: rgb(99, 13, 13);
   border-radius: 50% 50% 0 0;
   box-shadow: inset -15px 0 maroon;
   margin: 2% auto;
@@ -19,13 +20,16 @@
 
 .Filler {
   width: 80%;
-  height: 8%;
+  height: 10%;
   background: linear-gradient(sienna, sandyBrown);
+  margin: 2% auto;
+  border-radius: 15px;
 }
 
 .Aroma {
   width: 80%;
   height: 3%;
-  background: linear-gradient(lightgrey, lightSlateGrey);
+  background: linear-gradient(rgb(51, 48, 48), white);
   margin: 2% auto;
+  margin-bottom: 10%;
 }
