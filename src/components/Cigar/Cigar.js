@@ -12,9 +12,9 @@ const cigar = ( props ) => {
   });
   return (
     <div className={classes.Cigar}>
-      <CigarLeaf type='cigar-binder' />
+      <CigarLeaf  />
       {transformedLeaves}
-      <CigarLeaf type='cigar-wrapper' />      
+      <CigarLeaf  />      
     </div>
   );
 };

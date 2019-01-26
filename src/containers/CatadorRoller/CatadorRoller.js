@@ -6,10 +6,10 @@ import Cigar from '../../components/Cigar/Cigar';
 class CatadorRoller extends Component {
     state = {
         leaf: {
-            Aroma: 1,
-            CigarBinder: 1,
-            Filler: 1,
-            CigarWrapper: 1
+            aroma: 1,
+            'cigar-binder': 1,
+            filler: 1,
+            'cigar-wrapper': 1
         }
     }
     render () {
