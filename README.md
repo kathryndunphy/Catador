@@ -32,5 +32,5 @@ PHASE ONE
 
 ## Websites
 
-Heroku: Click [here](https://catador-p3.herokuapp.com//).
-GitHub Click [here](https://github.com/BrasasTejas/Catador).
+- Heroku: Click [here](https://catador-p3.herokuapp.com//).
+- GitHub Click [here](https://github.com/BrasasTejas/Catador).
