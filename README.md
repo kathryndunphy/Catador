@@ -32,6 +32,5 @@ PHASE ONE
 
 ## Websites
 
-_Catador_ is deployed to Heroku. Click [here](https://catador-p3.herokuapp.com//).
-
-- Click here: [Brasas Tejas](https://github.com/BrasasTejas/Catador).
+Heroku: Click [here](https://catador-p3.herokuapp.com//).
+GitHub Click [here](https://github.com/BrasasTejas/Catador).
