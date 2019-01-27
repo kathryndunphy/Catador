@@ -5,17 +5,11 @@ Catador: A professional cigar taster who determines a cigar's qualities of taste
 ## Steps
 
 In the project directory, we attempt to hand-roll you, the Catador, the finest cigar:
-
 1. npm run eject
    - not sure if this will end up being a good idea later when wanting to utilize [React-Materialize](https://react-materialize.github.io/#/)
 2. removed all styling from components aside from the global styling available in [index.css]
 3. using [App.js] as root element vs. [Index.js] for layout to accomodate for future development
 4. added [NPM prop-types](https://www.npmjs.com/package/prop-types)
-5. created handler methods to add and remove leaf to the CatadorRoller
-6. added control functions (RollControls) to add and remove tobacco leaf to cigar order (CatadorRoller)
-7. set base cigar build price at \$5 and added price to individual leaf types (as defined in CigarLeaf)
-8. disallowed removing of ingredients that aren't in the roller so Roller doesn't crash
-9. add modal for cigar order - have a wrapping element with styling for the content inside
 
 # Brasas Tejas - Organization - Project 3
 
