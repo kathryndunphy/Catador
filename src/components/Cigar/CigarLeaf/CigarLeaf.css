@@ -1,37 +1,35 @@
 .Aroma {
-  width: 80%;
+  width: 70%;
   height: 3%;
   background: linear-gradient(rgb(51, 48, 48), white);
   margin: 2% auto;
-  margin-bottom: 10%;
+  /* margin-bottom: 10%; */
 }
 
 .CigarBinder {
-  width: 80%;
+  width: 70%;
   height: 10%;
   background: rgb(99, 13, 13);
   border-radius: 50% 25% 25% 50%;
   box-shadow: inset -15px 0 maroon;
-  /* margin: 2% auto; */
+  /* margin-top: 5%; */
+  margin: 2% auto;
   position: relative;
 }
 
 .Filler {
-  width: 80%;
+  width: 70%;
   height: 10%;
   background: linear-gradient(sienna, sandyBrown);
-  /* margin: 2% auto; */
+  margin: 2% auto;
   border-radius: 50% 25% 25% 50%;
 }
 
 .CigarWrapper {
-  width: 80%;
+  width: 70%;
   height: 10%;
   background: saddleBrown;
   border-radius: 50% 25% 25% 50%;
   box-shadow: inset -15px 0 maroon;
-  /* margin: 2% auto; */
-  
+  margin: 2% auto;
 }
-
-
