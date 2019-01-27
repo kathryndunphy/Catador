@@ -17,10 +17,10 @@ Application users can customize, review, and rate cigars.
 
 ## Tools
 
-Dependency Management Tool: Node Package Manager
-Bundler: Webpack
-Compiler: Babel
-Database: MySQL and Sequelize
+-Dependency Management Tool: Node Package Manager
+-Bundler: Webpack
+-Compiler: Babel
+-Database: MySQL and Sequelize
 
 ## Contributors
 
