@@ -35,6 +35,9 @@ PHASE ONE
 
 - Create User Account that can customize cigars.
 
+## Wireframe	
+![Initial Wireframe](/public/images/Catador.png?raw=true "Wireframe")
+
 ## Websites
 
 - Heroku: Click [here](https://catador-p3.herokuapp.com//).
