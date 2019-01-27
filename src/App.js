@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import Layout from "./hoc/Layout/Layout";
+import Layout from './components/Layout/Layout';
 import CatadorRoller from "./containers/CatadorRoller/CatadorRoller";
 
 class App extends Component {

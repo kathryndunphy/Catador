@@ -1,5 +1,5 @@
 .Aroma {
-  width: 80%;
+  width: 70%;
   height: 3%;
   background: linear-gradient(rgb(51, 48, 48), white);
   margin: 2% auto;
@@ -7,7 +7,7 @@
 }
 
 .CigarBinder {
-  width: 80%;
+  width: 70%;
   height: 10%;
   background: rgb(99, 13, 13);
   border-radius: 50% 25% 25% 50%;
@@ -18,7 +18,7 @@
 }
 
 .Filler {
-  width: 80%;
+  width: 70%;
   height: 10%;
   background: linear-gradient(sienna, sandyBrown);
   margin: 2% auto;
@@ -26,7 +26,7 @@
 }
 
 .CigarWrapper {
-  width: 80%;
+  width: 70%;
   height: 10%;
   background: saddleBrown;
   border-radius: 50% 25% 25% 50%;
