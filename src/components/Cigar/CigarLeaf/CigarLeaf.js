@@ -8,18 +8,17 @@ class CigarLeaf extends Component {
     let leaf = null;
 
     switch (this.props.type) {
-      case ('cigar-wrapper'):
-        leaf = <div className={classes.CigarWrapper} />;
+      case 'aroma':
+        leaf = <div className={classes.Aroma} />;
         break;
-      case ('cigar-binder'):
-        leaf = 
-          <div className={classes.CigarBinder} />;
+      case 'cigar-binder':
+        leaf = <div className={classes.CigarBinder} />;
         break;
-      case ('filler'):
+      case 'filler':
         leaf = <div className={classes.Filler} />;
         break;
-      case ('aroma'):
-        leaf = <div className={classes.Aroma} />;
+      case 'cigar-wrapper':
+        leaf = <div className={classes.CigarWrapper} />;
         break;
       default:
         leaf = null;
@@ -30,7 +29,7 @@ class CigarLeaf extends Component {
 }
 
 CigarLeaf.propTypes = {
-  type: PropTypes.string.isRequired
+  type: PropTypes.string.isRequired,
 };
 
 export default CigarLeaf;
