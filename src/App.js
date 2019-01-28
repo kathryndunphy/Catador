@@ -2,10 +2,10 @@ import React, { Component } from "react";
 
 import Layout from "./components/Layout/Layout";
 import CatadorRoller from "./containers/CatadorRoller/CatadorRoller";
-import Main from "./components/Main";
-import Secret from "./components/Secret";
-import NotFound from "./components/NotFound";
-import Callback from "./components/Callback";
+import Main from "./components/Authenticate/Main";
+import Secret from "./components/Authenticate/Secret";
+import NotFound from "./components/Authenticate/NotFound";
+import Callback from "./components/Authenticate/Callback";
 
 class App extends Component {
   render() {
@@ -16,7 +16,18 @@ class App extends Component {
         mainComponent = <Main {...this.props} />
         break;
       case "secret":
-        mainComponent = this.props.auth.isAuthenticated() ? <Secret {...this.props} /> : <NotFound />;
+        mainComponent = this.props.auth.isAuthenticated() ? 
+        <div>
+          <div>
+            <Secret {...this.props} />
+          </div> 
+          <div>
+            <Layout>
+              <CatadorRoller />
+            </Layout>
+          </div>
+        </div> 
+        : <NotFound />;
         break;
       case "callback":
         mainComponent = <Callback />
@@ -30,11 +41,11 @@ class App extends Component {
         <div>
           {mainComponent}
         </div>
-        <div>
+        {/* <div>
           <Layout>
             <CatadorRoller />
           </Layout>
-        </div>
+        </div> */}
       </div>
     );
   }
