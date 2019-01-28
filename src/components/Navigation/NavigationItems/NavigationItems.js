@@ -8,7 +8,7 @@ const navigationItems = () => (
     <NavigationItem link="/" active>
       Catador Roller
     </NavigationItem>
-    <NavigationItem link="/">Add to my Humidor</NavigationItem>
+    <NavigationItem link="/">Add to Humidor</NavigationItem>
   </ul>
 );
 

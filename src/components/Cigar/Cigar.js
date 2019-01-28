@@ -13,17 +13,16 @@ const cigar = props => {
     .reduce((arr, el) => {
       return arr.concat(el);
     }, []);
-  
-  if (transformedLeaves.length === 0) {
-    transformedLeaves = <p>Add your leaf choices!</p>
-  }
 
+  if (transformedLeaves.length === 0) {
+    transformedLeaves = <p>Add your leaf choices!</p>;
+  }
 
   return (
     <div className={classes.Cigar}>
-      <CigarLeaf type="cigar-binder" />
+      <CigarLeaf />
       {transformedLeaves}
-      <CigarLeaf type="cigar-wrapper"/>
+      <CigarLeaf  />
     </div>
   );
 };

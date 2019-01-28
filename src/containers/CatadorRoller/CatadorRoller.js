@@ -4,7 +4,7 @@ import Aux from "../../hoc/Auxiliary/Auxiliary";
 import Cigar from "../../components/Cigar/Cigar";
 import RollControls from "../../components/Cigar/RollControls/RollControls";
 import Modal from "../../components/UI/Modal/Modal";
-import OrderSummary from '../../components/Cigar/OrderSummary/OrderSummary';
+import OrderSummary from "../../components/Cigar/OrderSummary/OrderSummary";
 
 const LEAF_PRICES = {
   "cigar-binder": 2,
@@ -66,19 +66,19 @@ class CatadorRoller extends Component {
     const newPrice = oldPrice - priceDeduction;
     this.setState({ totalPrice: newPrice, leaf: updatedLeaf });
     this.updatePurchaseableState(updatedLeaf);
-  }
+  };
 
   purchaseHandler = () => {
-    this.setState({purchasing: true});
-  }
+    this.setState({ purchasing: true });
+  };
 
   purchaseCancelHandler = () => {
-    this.setState({purchasing: false});
-  }
+    this.setState({ purchasing: false });
+  };
 
   purchaseContinueHandler = () => {
-    alert('Keep Rolling!');
-  }
+    alert("Keep Rolling!");
+  };
 
   render() {
     const disabledInfo = {
@@ -89,13 +89,17 @@ class CatadorRoller extends Component {
     }
     return (
       <Aux>
-          <Modal show={this.state.purchasing} modelClosed={this.purchaseCancelHandler}>
-            <OrderSummary          
-             leaf={this.state.leaf}
-             price={this.state.totalPrice}          
-             purchaseCancelled={this.purchaseCancelHandler}
-             purchaseContinued={this.purchaseContinueHandler} />
-          </Modal>
+        <Modal
+          show={this.state.purchasing}
+          modelClosed={this.purchaseCancelHandler}
+        >
+          <OrderSummary
+            leaf={this.state.leaf}
+            price={this.state.totalPrice}
+            purchaseCancelled={this.purchaseCancelHandler}
+            purchaseContinued={this.purchaseContinueHandler}
+          />
+        </Modal>
         <Cigar leaf={this.state.leaf} />
         <RollControls
           leafAdded={this.addLeafHandler}

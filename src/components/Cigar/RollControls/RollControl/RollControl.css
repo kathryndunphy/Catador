@@ -35,18 +35,18 @@
 }
 
 .RollControl .Less {
-  background-color: #d39952;
+  background-color: rgb(90, 100, 247);
   color: white;
 }
 
 .RollControl .More {
-  background-color: #8f5e1e;
+  background-color: rgb(61, 61, 114);
   color: white;
 }
 
 .RollControl .Less:hover,
 .RollControl .Less:active {
-  background-color: #daa972;
+  background-color: rgb(86, 86, 168);
   color: white;
 }
 

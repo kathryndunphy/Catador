@@ -9,33 +9,33 @@
   padding: 10px 0;
 }
 
-.OrderButton {
-  background-color: #dad735;
+.RollControls .OrderButton {
+  background-color: darkslategrey;
   outline: none;
   cursor: pointer;
-  border: 1px solid #966909;
-  color: #966909;
+  border: 1px solid rgb(61, 61, 114);
+  color: azure;
   font-family: inherit;
   font-size: 1.2em;
   padding: 15px 30px;
-  box-shadow: 2px 2px 2px #966909;
+  box-shadow: 2px 2px 2px rgb(53, 53, 99);
 }
 
-.OrderButton:hover,
+.RollControls .OrderButton:hover,
 .OrderButton:active {
   background-color: #a0db41;
-  border: 1px solid #966909;
-  color: #966909;
+  border: 1px solid rgb(61, 61, 114);
+  color: rgb(61, 61, 114);
 }
 
-.OrderButton:disabled {
+.RollControls .OrderButton:disabled {
   background-color: #c7c6c6;
   cursor: not-allowed;
   border: 1px solid #ccc;
   color: #888888;
 }
 
-.OrderButton:not(:disabled) {
+.RollControls .OrderButton:not(:disabled) {
   animation: enable 0.3s linear;
 }
 

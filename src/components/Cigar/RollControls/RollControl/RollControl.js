@@ -12,7 +12,11 @@ const rollControl = props => (
     >
       Less
     </button>
-    <button className={classes.More} onClick={props.added} disabled={!props.disabled}>
+    <button
+      className={classes.More}
+      onClick={props.added}
+      disabled={!props.disabled}
+    >
       More
     </button>
   </div>
